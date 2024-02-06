@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 75px;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+#img1 {
+    width: 100%;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color:#000;
+    color: #fff;
+    font-size: 16px;
+    padding: 45px 150px;
+    height: 500px;
+}
+.container2 >img {
+    width: 450px;
+}
+.container3 {
+    background-color: #1E1A13;
+    color: #fff;
+}
+.container3 >h2 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 10px 0 ;
+    font-size: 30px;
+}
+.item >i {
+    margin: 30px;
+}
+.caract {
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 20px;
+   border: 2px solid #fff;
+   gap: 200px;
+}
+.container4 {
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container4 >img {
+    width: 316;
+    height: 200px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1A13;
+    height: 100px;
+    color: #fff;
+}
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
